@@ -1,0 +1,30 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+}
+
+tr>th {
+    text-align: left;
+    background-color: #4772c7;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 8px;
+}
+
+tr>td {
+    text-align: right;
+    font-size: 14px;
+    padding: 5px;
+}
+
+tr:nth-child(odd) {
+    background-color: #d9e1f3;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+td:nth-child(2) {
+    text-align: left;
+}
